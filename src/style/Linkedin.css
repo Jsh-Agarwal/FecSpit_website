@@ -1,0 +1,188 @@
+
+
+.finance-section {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+  
+  .linkedin-section {
+    position: relative;
+    height: 600px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: 20;
+  margin-top: -5rem;
+  }
+  
+  .linkedin-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45rem;
+    height: 17rem;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .linkedin-content h2 {
+    font-size: 38px;
+    letter-spacing: -0.1rem;
+    font-weight: bold;
+  }
+  
+  .linkedin-content p {
+    font-size: 18px;
+    margin-bottom: 3rem;
+    /* margin: 10px 0; */
+    
+  }
+  
+  .learn-more {
+    color: #050505;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+  .call-to-action {
+    text-align: center;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .cta-button {
+    background-color: #f0a500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #cc8500;
+  }
+  
+  .reach-out {
+    background-color: transparent;
+    border: 2px solid #f0a500;
+    color: #f0a500;
+  }
+  
+  .reach-out:hover {
+    background-color: #f0a500;
+    color: white;
+  }
+  
+  
+  
+  
+  .responsive-image {
+    max-width: 90%; /* Ensures the image is responsive */
+    height: auto;
+    margin-top: 2rem;
+    margin-right: -4rem;
+    /* border-radius: 8px; Optional: Adds rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+  }
+  
+  .yellow-line {
+    height: 4px; /* Thickness of the line */
+    background-color: #f4b338; /* Line color */
+    width: 15%; /* Full width */
+    margin: 20px 0; /* Optional: Space around the line */
+    border-radius: 5rem;
+  margin-left: 37rem;
+  margin-bottom: 3rem;
+  }
+  
+  
+  .white-line {
+    height: 4px; /* Thickness of the line */
+    width: 50%; /* Width of the line */
+    margin: 20px 0; /* Optional: Space around the line */
+    border-radius: 5rem; /* Rounded corners */
+    margin-left: 22rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right, transparent, #ffffff9d, transparent); /* Gradient for fading ends */
+  }
+  
+  
+  .banner-section {
+    /* display: flex; */
+    /* justify-content: center; */
+  width: 112%;
+  margin-top: -3rem;
+    /* margin: 20px ; Adjust spacing as needed */
+    z-index: 10;
+  }
+
+
+.club-section {
+  background: #333333;
+  text-align: center;
+  margin-top: -5rem;
+  padding: 10px 20px;
+}
+
+.club-section h2 {
+  margin-top: 8rem;
+  font-size: 38px;
+  color: #ffc107;
+}
+
+.club-section p {
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: -0.03rem;
+}
+
+.club-details {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.tagline {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fbfbfb;
+  margin-bottom: 4rem;
+}
+
+
+
+/* General Styling for the Section */
+.contact-section {
+  background-color: #1a1a1a;
+  color: white;
+  /* padding: 50px 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}

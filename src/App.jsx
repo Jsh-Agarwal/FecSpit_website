@@ -1,20 +1,24 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/Homepage';  // Adjust the import path based on your file structure
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Stats from "./components/Stats";
+import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
+import Linkedin from "./components/Linkedin";
 
-const App = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/services" element={<div>Services Page</div>} />
-        <Route path="/about" element={<div>About Page</div>} />
-        <Route path="/reviews" element={<div>Reviews Page</div>} />
-        <Route path="/contacts" element={<div>Contacts Page</div>} />
-        <Route path="/blog" element={<div>Blog Page</div>} />
-        <Route path="/reports" element={<div>Top Reports Page</div>} />
-      </Routes>
-    </Router>
-  );
-};
+const App = () => (
+  <div>
+    <Navbar />
+    <Hero />
+    <Stats />
+    <Services />
+    <Linkedin/>
+    <Testimonials />
+    <ContactForm />
+    <Footer />
+  </div>
+);
 
 export default App;

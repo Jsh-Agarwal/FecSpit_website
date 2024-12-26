@@ -1,0 +1,148 @@
+/* footer */
+.footer {
+    background-color: #2a2a2a;
+    /* color: #e2a61d; */
+    padding: 10rem 0;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Courier, monospace,
+      "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif, Helvetica, sans-serif,
+      "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif,
+      Tahoma, Geneva, Verdana, sans-serif, "Arial Narrow", Arial, sans-serif,
+      Geneva, Tahoma, sans-serif, Haettenschweiler, "Arial Narrow Bold",
+      sans-serif, "Times New Roman", Times, serif, Cochin, Georgia, Times,
+      "Times New Roman", serif, Helvetica, sans-serif, "Lucida Sans Unicode",
+      "Lucida Grande", "Lucida Sans", Arial, sans-serif, Tahoma, Geneva, Verdana,
+      sans-serif, "Arial Narrow", Arial, sans-serif, "Lucida Sans Regular",
+      "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-left: 5rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  
+    color: #e2a61d;
+  }
+  
+  .footer-section p {
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom p {
+    margin: 0.5rem 0;
+    padding-top: 2rem;
+  }
+  
+  .footer-copyright {
+    font-weight: bold;
+  }
+  
+  .footer-image {
+    height: 8rem;
+  }
+  /* footer */
+  /* Footer General Styling */
+  .footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  /* Footer Title */
+  .footer-title h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  /* Footer Details Section */
+  .footer-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+  }
+  
+  .footer-item {
+    max-width: 200px;
+  }
+  
+  .footer-icon {
+    font-size: 2rem;
+    color: #f0a500;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .footer-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+    text-transform: uppercase;
+  }
+  
+  .footer-item p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    width: 100%;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links li {
+    display: inline;
+  }
+  
+  .footer-links a {
+    color: #f0a500;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  

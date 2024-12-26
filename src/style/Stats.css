@@ -1,0 +1,41 @@
+
+  /* Stats Section */
+  .stats-and-initiatives {
+    background-color: #1c1c1e; /* Dark background */
+    color: #fff; /* White text */
+    padding: 4rem 2rem;
+    position: relative; /* Keeps child elements positioned relative to this container */
+    overflow: visible; /* Ensure no content is clipped */
+  }
+  
+
+.stats-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+}
+
+.stat-card {
+  margin-top: -2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.stat-value {
+  font-size: 3.7rem;
+  font-weight: 700;
+  color: #f5c518; /* Yellow for emphasis */
+}
+
+.stat-label {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+

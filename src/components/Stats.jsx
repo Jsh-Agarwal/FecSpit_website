@@ -1,33 +1,31 @@
-import React from 'react';
-import "./Homepage.css";
+import React from "react";
+import "../style/Stats.css";
 
-
-
-
-const StatCard = ({ value, label }) => (
-  <div className="stat-card">
-    <h3 className="stat-value">{value}</h3>
-    <p className="stat-label">{label}</p>
-  </div>
-);
-
-const Stats = () => {
-  const stats = [
-    { value: 50, label: "Active Members" },
-    { value: 20, label: "Research Projects" },
-    { value: 4, label: "Corporate Reports" },
-    { value: 10, label: "Specialists in Demand" }
-  ];
-
-  return (
-    <div className="stats-section">
-      <div className="stats-cards">
-        {stats.map((stat, index) => (
-          <StatCard key={index} value={stat.value} label={stat.label} />
-        ))}
+const Stats = () => (
+ 
+  <div id="services" className="stats-and-initiatives">
+  <div className="stats-section">
+    <div className="stats-cards">
+      <div className="stat-card">
+        <h3 className="stat-value">50</h3>
+        <p className="stat-label">Active Members</p>
+      </div>
+      <div className="stat-card">
+        <h3 className="stat-value">20</h3>
+        <p className="stat-label">Research Projects</p>
+      </div>
+      <div className="stat-card">
+        <h3 className="stat-value">4</h3>
+        <p className="stat-label">Corporate Reports</p>
+      </div>
+      <div className="stat-card">
+        <h3 className="stat-value">10</h3>
+        <p className="stat-label">Specialists in Demand</p>
       </div>
     </div>
-  );
-};
+  </div>
+
+ </div>
+);
 
 export default Stats;
