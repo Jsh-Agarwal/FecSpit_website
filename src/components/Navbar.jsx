@@ -1,20 +1,22 @@
 import React from "react";
 import "../style/Navbar.css";
 import "../style/Index.css";
+import { Link } from "react-router-dom";
 import FECLogo from "../assets/Finance.png";
 
 const Navbar = () => (
   <nav className="navbar">
-    <div className="logo-container">
+      <Link to="/" className="logo-container">
       <img src={FECLogo} alt="FEC SPIT Logo" className="logo" />
-    </div>
+    </Link>
     <div className="nav-links">
       <a href="#services" className="nav-link">Services</a>
-      <a href="#about" className="nav-link">About</a>
+     
       <a href="#reviews" className="nav-link">Reviews</a>
       <a href="#contacts" className="nav-link">Contacts</a>
+       <Link to="/events" className="nav-link">Events</Link>
       <a href="#blog" className="nav-link">Blog</a>
-      <a href="#reports" className="nav-link">Top Reports</a>
+      <Link to="/reports" className="nav-link">Top Reports</Link>
     </div>
   </nav>
 );

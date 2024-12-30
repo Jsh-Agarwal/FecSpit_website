@@ -1,0 +1,105 @@
+/* reports.css */
+.reports-container {
+    background-color: #000000;
+    padding-bottom: 18rem;
+    min-height: 10vh;
+    padding-top: 2rem;
+    font-family: system-ui, -apple-system, sans-serif;
+  
+  }
+  
+  .reports-title {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 7rem;
+    margin-bottom: 40px;
+  }
+  
+  .reports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .report-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 24px;
+    /* border: 1px solid #333; */
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  .report-card:hover {
+    transform: translateY(-2px);
+    border-color: #D4AF37;
+    box-shadow: 0 4px 20px rgba(74, 222, 128, 0.1);
+  }
+  
+  .report-card-title {
+    color: #D4AF37;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+  }
+  
+  .report-card-description {
+    color: #d1d5db;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 24px 0;
+    flex-grow: 1;
+  }
+  
+  .report-card-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border: 1px solid #D4AF37;
+    border-radius: 9999px;
+    color: #D4AF37;
+    font-size: 0.95rem;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+  }
+  
+  .report-card-button:hover {
+    background-color: #D4AF37;
+    color: #000;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .reports-grid {
+      grid-template-columns: 1fr;
+      padding: 0 10px;
+    }
+    
+    .reports-title {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    
+    .report-card {
+      padding: 20px;
+    }
+  }
+  
+  /* Add smooth scrolling and better font rendering */
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
